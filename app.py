@@ -67,5 +67,5 @@ if st.button("Check Result"):
     else:
         st.success(f"Low Risk: Aap safe lag rahe hain. (Confidence: {prediction_proba[0][0]*100:.2f}%)")
 
-st.info("Note: Ye sirf ek ML project hai, medical advice ke liye doctor se milein.")
+st.info("Note: Ye sirf ek ML project hai, medical advice ke liye doctor se milo.")
 
